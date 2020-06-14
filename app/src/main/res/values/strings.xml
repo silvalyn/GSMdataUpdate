@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GSMdata</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Log in</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Enter your details</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="edit_message" >Enter your email</string>
+    <string name="enter_password" >Enter your password</string>
+    <string name="bin_list">Bin List</string>
+    <string name="bin_1">BIN 1</string>
+    <string name="log_out">Log Out</string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="gps_location">GPS location</string>
+    <string name="longlat">longlat</string>
+    <string name="degrees">degrees</string>
+    <string name="percentage">percentage</string>
+</resources>
