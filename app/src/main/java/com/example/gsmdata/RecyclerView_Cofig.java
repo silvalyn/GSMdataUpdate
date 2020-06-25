@@ -25,6 +25,7 @@ public class RecyclerView_Cofig {
         private TextView mHumidity;
         private TextView mTemperature;
         private TextView mLocation;
+        private TextView mLocation2;
         private TextView mGabegeLevel;
 
         private String key;
@@ -35,6 +36,7 @@ public class RecyclerView_Cofig {
             mHumidity=(TextView)itemView.findViewById(R.id.Humidity);
             mTemperature=(TextView)itemView.findViewById(R.id.Temperature);
             mLocation=(TextView)itemView.findViewById(R.id.Location);
+            mLocation2=(TextView)itemView.findViewById(R.id.location);
             mGabegeLevel=(TextView)itemView.findViewById(R.id.GabageLevel);
 
         }
@@ -42,6 +44,7 @@ public class RecyclerView_Cofig {
             mHumidity.setText(book.getHumidity());
             mTemperature.setText(book.getTemperature());
             mLocation.setText(book.getLocation());
+            mLocation2.setText(book.getLocation2());
             mGabegeLevel.setText(book.getGabegeLEvel());
             this.key=key;
         }
